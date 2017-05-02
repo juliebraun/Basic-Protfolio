@@ -1,5 +1,5 @@
 body { 
-background-color: #ebebeb;
+background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/hip-square.png");
 margin: 0;
  }
 
@@ -15,12 +15,11 @@ margin: 0;
 	float: left;
 	text-align: center;
 	line-height: 100px;
-	
 }
 #navItems { 
 min-height: 100px; 
 float: right;
-margin-right: 170px;
+margin-right: 180px;
 text-align: center;
 border-spacing: 50px;
 }
@@ -70,12 +69,13 @@ border-spacing: 50px;
 	border-color: #dddddd;
 	display: flex;
 	flex-flow: wrap;
+	margin-top: 30px;
 
 }
 .connectbox {
 	float:right;
 	width: 250px;
-	height: 120px;
+	height: 170px;
 	background-color: #fff;
 	margin: 20px;
 	margin-right: 170px;
@@ -83,7 +83,8 @@ border-spacing: 50px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #dddddd;
-
+	position: relative;
+	margin-top: 30px;
 }
 .footer {
 	content: "";
@@ -97,4 +98,31 @@ border-spacing: 50px;
 	border-top-style: solid;
 	border-top-width: 10px;
 	border-top-color: #4aaaa5;
+}
+.MainContent img {
+	margin-right: 20px;
+}
+.MainContent h1 {
+	color: #4aaaa5;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+.ConnectwithMe h2 {
+	position: absolute;
+	text-align: center;
+	margin-left: 20px;
+	color: #4aaaa5;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
+.ConnectwithMe a {
+	position: relative;
+	top: 80px;
+	margin: 5px;
+}
+
+.ConnectwithMe hr {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #777777;
+
 }
